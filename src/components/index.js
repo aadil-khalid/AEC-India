@@ -1,23 +1,27 @@
 import Navbar from "./Navbar";
-import Billing from "./Billing";
-import CardDeal from "./CardDeal";
+import StrPort from "./StrPort";
+import AuditPort from "./AuditPort";
 import Business from "./Business";
 import Clients from "./Clients";
 import CTA from "./CTA";
+import Portfolio from "./Portfolio";
 import Stats from "./Stats";
 import Footer from "./Footer";
-import Testimonials from "./Testimonials";
+import About from "./About";
+import MoreServices from "./MoreServices";
 import Hero from "./Hero";
 
 export {
   Navbar,
-  Billing,
-  CardDeal,
+  StrPort,
+  AuditPort,
   Business,
   Clients,
   CTA,
+  Portfolio,
   Stats,
   Footer,
-  Testimonials,
+  About,
+  MoreServices,
   Hero,
 };

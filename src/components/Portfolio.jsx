@@ -1,19 +1,18 @@
 import styles from "../style";
-import Button from "./Button";
+import KnowMore from "./KnowMore";
 
-const CTA = () => (
+const Portfolio = () => (
   <section className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow`}>
     <div className="flex-1 flex flex-col">
-      <h2 className={styles.heading2}>Get it done with us today</h2>
+      <h2 className={styles.heading2}>Our Portfolio</h2>
       <p className={`${styles.paragraph} max-w-[700px] mt-5`}>
-      With years of experience, our team is here to provide you with exceptional customer service and top-of-the-line results, every single time.
+      Have a look at our portfolio with capstone projects in structural engineering, structural audit, architecture and construction project management.
       </p>
     </div>
-
     <div className={`${styles.flexCenter} sm:ml-10 ml-0 sm:mt-0 mt-10`}>
-      <Button />
+      <KnowMore />
     </div>
   </section>
 );
 
-export default CTA;
+export default Portfolio;

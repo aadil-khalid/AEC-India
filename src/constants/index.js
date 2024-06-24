@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, str, pmc, rep } from "../assets";
 
 export const navLinks = [
   {
@@ -6,65 +6,86 @@ export const navLinks = [
     title: "Home",
   },
   {
-    id: "features",
-    title: "Features",
+    id: "about us",
+    title: "About Us",
   },
   {
-    id: "product",
-    title: "Product",
+    id: "projects",
+    title: "Projects",
   },
   {
-    id: "clients",
-    title: "Clients",
+    id: "services",
+    title: "Services",
   },
 ];
 
 export const features = [
   {
     id: "feature-1",
-    icon: star,
-    title: "Rewards",
+    icon: str,
+    title: "Structural Engineering",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "BIM, Finite Element Analysis, Structural Analysis Report, Structural Drawings and related solutions.",
   },
   {
     id: "feature-2",
-    icon: shield,
-    title: "100% Secured",
+    icon: pmc,
+    title: "Project Management Consultancy",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "PMC services for Redevelopment of Housing Society and other construction activities by highly experienced professionals.",
   },
   {
     id: "feature-3",
-    icon: send,
-    title: "Balance Transfer",
+    icon: rep,
+    title: "Structural Audit & Repair",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Non-Destructive Testing, Structural Assessment, Stability Certification, Structural Repair & Rehabilitation.",
   },
 ];
 
-export const feedback = [
+export const services = [
   {
-    id: "feedback-1",
+    id: "service-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
+      "Comprehensive examination of a building or infrastructure to evaluate its overall condition,stability, and safety. Conducted byqualified structural engineers.",
+    name: "STRUCTUAL ASSESSMENT",
+  },
+  {
+    id: "service-2",
+    content:
+      "Conduct NDT on Reinforced Concrete and Steel Structures to assess the integrity and condition of materials without causing damage",
+    name: "NON-DESTRUCTIVE TESTING",
+  },
+  {
+    id: "service-3",
+    content:
+      "With a team of experienced and qualified engineers, we offer comprehensive assessments to identify structural issues, such as cracks, deterioration, or foundation problems, encompassing detailed repair strategies, cost estimates, and timelines, ensuring that our clients make informed decisions for the restoration of their structures.",
+    name: "REPAIR & RETROFITTING",
+  },
+];
+
+export const associates = [
+  {
+    id: "associate-1",
+    content:
+      "Proprietor of AEC India, a leading professional in the construction industry with over 20 years of international project execution experience.",
+    name: "Khalid Ali Khan",
     title: "Founder & Leader",
     img: people01,
   },
   {
-    id: "feedback-2",
+    id: "associate-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
+      "Founder of Equilibrium Enterprises with multiple large scale projects and a broad structural analysis/design portfolio.",
+    name: "Rajkumar Rangari",
     title: "Founder & Leader",
     img: people02,
   },
   {
-    id: "feedback-3",
+    id: "associate-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
+      "Founder of RPCL Constructions experienced in engineering & procurement of major contracts of Mumbai.",
+    name: "Anwar Siroha",
     title: "Founder & Leader",
     img: people03,
   },
@@ -73,18 +94,18 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    title: "Projects completed",
+    value: "50+",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
+    title: "YEARS OF INDUSTRY EXPERIENCE",
+    value: "30+",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "COUNTRIES ",
+    value: "7",
   },
 ];
 
@@ -93,62 +114,62 @@ export const footerLinks = [
     title: "Useful Links",
     links: [
       {
-        name: "Content",
-        link: "https://www.hoobank.com/content/",
+        name: "Home",
+        link: " ",
       },
       {
-        name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
+        name: "About Us",
+        link: " ",
       },
       {
-        name: "Create",
-        link: "https://www.hoobank.com/create/",
+        name: "Projects",
+        link: " ",
       },
       {
-        name: "Explore",
-        link: "https://www.hoobank.com/explore/",
+        name: "Services",
+        link: " ",
       },
       {
         name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
+        link: " ",
       },
     ],
   },
   {
-    title: "Community",
+    title: "Services",
     links: [
       {
-        name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
+        name: "Structural Analysis",
+        link: " ",
       },
       {
-        name: "Partners",
-        link: "https://www.hoobank.com/partners/",
+        name: "Project Management",
+        link: " ",
       },
       {
-        name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
+        name: "BIM & FEA",
+        link: " ",
       },
       {
-        name: "Blog",
-        link: "https://www.hoobank.com/blog/",
+        name: "Repair & Rehabilitation",
+        link: " ",
       },
       {
-        name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
+        name: "Non-Destructive Testing",
+        link: " ",
       },
     ],
   },
   {
-    title: "Partner",
+    title: "Contact",
     links: [
       {
-        name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
+        name: "Borivali East, Mumbai - 400066",
+        link: " ",
       },
       {
-        name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
+        name: "info@theaecindia.com",
+        link: " ",
       },
     ],
   },
