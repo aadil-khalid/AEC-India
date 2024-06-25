@@ -3,7 +3,7 @@ import styles from "../style";
 import AboutCard from "./AboutCard";
 
 const About = () => (
-  <section id="clients" className={`${styles.paddingY} ${styles.flexCenter} flex-col relative `}>
+  <section id="staff" className={`${styles.paddingY} ${styles.flexCenter} flex-col relative `}>
     <div className="absolute z-[0] w-[60%] h-[60%] -right-[50%] rounded-full blue__gradient bottom-40" />
 
     <div className="w-full flex justify-between items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]">
@@ -17,7 +17,7 @@ const About = () => (
       </div>
     </div>
 
-    <div className="flex flex-wrap sm:justify-start justify-center w-full feedback-container relative z-[1]">
+    <div className="flex flex-wrap md:flex-nowrap justify-center w-full feedback-container relative z-[1]">
       {associates.map((card) => <AboutCard key={card.id} {...card} />)}
     </div>
   </section>

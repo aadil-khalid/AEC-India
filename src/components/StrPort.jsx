@@ -3,7 +3,7 @@ import styles, { layout } from "../style";
 import Button from "./Button";
 
 const StrPort = () => (
-  <section className={`${styles.flexCenter} flex ll:flex-row flex-col box-shadow`}>
+  <section id="projects" className={`${styles.flexCenter} flex ll:flex-row flex-col box-shadow`}>
   <div className={`${styles.padding} ${styles.flexCenter} ${styles.marginY} bg-black-gradient-2 rounded-[20px] box-shadow ss:max-w-[500px] ss:max-h-[500px] flex-row`}>
     <div className="flex flex-col items-center">
       <h2 className={`${styles.heading3} text-center mt-[0px] mb-[0px] max-w-[330px] `}>Structural Analysis & PMC</h2>

@@ -10,12 +10,12 @@ export const navLinks = [
     title: "About Us",
   },
   {
-    id: "projects",
-    title: "Projects",
-  },
-  {
     id: "services",
     title: "Services",
+  },
+  {
+    id: "projects",
+    title: "Projects",
   },
 ];
 
@@ -48,7 +48,7 @@ export const services = [
     id: "service-1",
     content:
       "Comprehensive examination of a building or infrastructure to evaluate its overall condition,stability, and safety. Conducted byqualified structural engineers.",
-    name: "STRUCTUAL ASSESSMENT",
+    name: "STRUCTURAL ASSESSMENT",
   },
   {
     id: "service-2",
@@ -81,14 +81,14 @@ export const associates = [
     title: "Founder & Leader",
     img: people02,
   },
-  {
-    id: "associate-3",
-    content:
-      "Founder of RPCL Constructions experienced in engineering & procurement of major contracts of Mumbai.",
-    name: "Anwar Siroha",
-    title: "Founder & Leader",
-    img: people03,
-  },
+  // {
+  //   id: "associate-3",
+  //   content:
+  //     "Founder of RPCL Constructions experienced in engineering & procurement of major contracts of Mumbai.",
+  //   name: "Anwar Siroha",
+  //   title: "Founder & Leader",
+  //   img: people03,
+  // },
 ];
 
 export const stats = [
