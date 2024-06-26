@@ -115,19 +115,19 @@ export const footerLinks = [
     links: [
       {
         name: "Home",
-        link: " ",
+        link: "#home",
       },
       {
         name: "About Us",
-        link: " ",
+        link: "#about us",
       },
       {
         name: "Projects",
-        link: " ",
+        link: "#projects",
       },
       {
         name: "Services",
-        link: " ",
+        link: "#services",
       },
       {
         name: "Terms & Services",
